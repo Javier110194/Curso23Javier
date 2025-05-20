@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice=width, initial=scale=1.0">
+    <title>CSS clase introuctoria</title>
+<!-- CSS in block (ccs en bloque)-->
+<!--
+    Para usar la etiqueta style Siempre se debe  indicar que elemento se quiere seleccionar
+    para colocarle estilos, se puede  seleccionar una etiqueta en especifico, una clase
+    o un indicar-->
+<style>
+    h1 {
+     background-color: brown;
+    font-size: 62px;
+    }
+</style>
+<!--Cargar archivo CSS-->
+<link rel="stylesheet" href="./src/css/styles.css">
+</head> 
+<body>
+<!--
+    CSS (Cascade style sheets)
+    Siempre sepropiedad seguido de : luego de un valor y finalmente ;
+    Ejemplo: color:red;
+-->    
+    <!--CSS in line (En la linea)-->
+    <h1 style="color: black">Esto es un titular</h1>
+    <p>Esto es un parrafo </p>
+    </body>
+</html>
